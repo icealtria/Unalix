@@ -2,3 +2,4 @@ build/
 dist/
 Unalix.egg-info/
 __pycache__/
+.pdm-python

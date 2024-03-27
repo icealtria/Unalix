@@ -3,7 +3,7 @@ import http.client
 import urllib.parse
 
 rules_url = "https://rules1.clearurls.xyz/data/data.minify.json"
-rules_path = "unalix/package_data/rulesets/data.min.json"
+rules_path = "src/unalix/package_data/rulesets/data.min.json"
 
 url = urllib.parse.urlparse(rules_url)
 

@@ -3,7 +3,7 @@ import http.client
 import urllib.parse
 
 ca_url = "https://curl.se/ca/cacert.pem"
-ca_path = "unalix/package_data/ca/ca-bundle.crt"
+ca_path = "src/unalix/package_data/ca/ca-bundle.crt"
 
 url = urllib.parse.urlparse(ca_url)
 

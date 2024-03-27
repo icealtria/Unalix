@@ -1,0 +1,42 @@
+
+[project]
+name = "Unalix-Rev"
+dynamic = ["version"]
+description = "Small, dependency-free, fast Python package for removing tracking fields from URLs."
+readme = "README.md"
+authors = [{ name = "SnwMds", email = "snwmds@tutanota.com" }]
+maintainers = [{ name = "icealtria", email = "icealtria@gmail.com" }]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: Android",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Topic :: Internet",
+    "Topic :: Security",
+]
+requires-python = ">=3.7"
+license = { text = "LGPL-3.0" }
+
+[project.urls]
+Homepage = "https://github.com/icealtria/Unalix-Rev"
+"Bug Tracker" = "https://github.com/icealtria/Unalix-Rev/issues"
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+[tool.pdm.version]
+source = "file"
+path = "src/unalix/__version__.py"
+
+[tool.pdm.build]
+includes = ["src/unalix"]
