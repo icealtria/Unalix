@@ -7,22 +7,10 @@ Unalix is a library written in Python, it implements the specification used by t
 Install using `pip`:
 
 ```bash
-python3 -m pip install --force-reinstall \
-    --disable-pip-version-check \
-    --upgrade \
-    'unalix'
+pip install Unalix-Rev
 ```
 
-The version from git might be broken sometimes, but you can also install from it:
-
-```bash
-python3 -m pip install --force-reinstall \
-    --disable-pip-version-check \
-    --upgrade \
-    'https://codeload.github.com/AmanoTeam/Unalix/tar.gz/refs/heads/master'
-```
-
-_**Note**: Unalix requires Python 3.6 or higher._
+_**Note**: Unalix requires Python 3.7 or higher._
 
 ## Usage:
 
